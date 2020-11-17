@@ -1,17 +1,12 @@
-# Ariel_OOP_2020
-The course is designed as a "project-paced-learning" (aka BPL) it consists of
-5-6 Object Oriented Designing and Programming assignments - which will teach (hands on) the students
-good practice of OOP, OOD, Agile (Xtream) Programming, while working on large scale software project
-Using Github.         
+# Ex01
+An implementation of a weighted graph. Some graph algorithms are implemented, like finding the shortest path between nodes.
 
-![alt text](http://bad-kan.com/images/logo/banner.png)
+# Data structures in use
+The implementation stores the nodes, weights and links in HashMaps for an efficient traversal.
+For the searching mechanism it uses the Dijkstra's algorithm with a PriorityQueue (Heap).
+Data is NOT pre loaded to the PQ for an efficient memory usage.
+It supports saving and loading the graph to and from a file and it supports deep copies of the graph by using a copy constructor.
+Most functions are documented at the interface level and are self explanatory. They contain inline comments in the complex parts of them.
 
-## Badkan website
-http://bad-kan.com/
-
-## Badkan tutorial 
-https://www.youtube.com/watch?v=2dpa6r3zNxQ&list=PLI1YQ3QGdy-Y5KxXuxGUXuh6idMfJIIbB&index=3&ab_channel=SimonPikalov
-
-
-
-
+# Data structures in use
+An example can be found in the tests :).
