@@ -1,4 +1,4 @@
-package class5.Lesson_6_Threads.first;
+package Lesson_6_Threads.first;
 public class JoinDemo {
 	public static void main(String[] args) {
 		ThreadJoin t1 = new ThreadJoin("T1");
